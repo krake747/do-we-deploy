@@ -9,7 +9,7 @@ Spoiler alert: We always deploy!
 
 ### Prerequisites
 
-- Node.js (Latest LTS version recommended)
+- Node.js (Latest version recommended)
 - pnpm (Package manager)
 
 ### Installation
