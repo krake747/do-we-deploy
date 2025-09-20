@@ -87,8 +87,8 @@ const App: Component = () => {
     })
 
     return (
-        <div class="grid min-h-screen grid-rows-[1fr_auto] justify-center bg-lime-100 px-4">
-            <div class="m-auto space-y-6  text-center text-white uppercase md:space-y-8">
+        <div class="grid min-h-[100dvh] grid-rows-[1fr_auto] justify-center bg-lime-100 px-4">
+            <div class="m-auto space-y-6 text-center text-white uppercase md:space-y-8">
                 <h1 class="text-xl font-semibold tracking-tight text-lime-700 md:text-2xl">
                     Do We Deploy on a {weekday}?
                 </h1>
@@ -108,7 +108,7 @@ const App: Component = () => {
                 </button>
             </div>
 
-            <div class="inline-flex items-center justify-center gap-1 self-center p-4 text-center text-sm text-lime-700 md:p-6 md:text-base">
+            <div class="self-center p-4 text-center text-sm text-lime-700 md:p-6 md:text-base">
                 Made with <Heart /> for devs who are scared to deploy <Rocket />
             </div>
         </div>

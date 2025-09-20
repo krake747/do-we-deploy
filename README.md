@@ -1,36 +1,62 @@
-## Usage
+# Do We Deploy? 🚀
 
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
+A fun and lighthearted web application that answers the age-old question: "Do we deploy today?"
+Spoiler alert: We always deploy!
 
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
+[Do We Deploy?](https://dowedeploy.kevinkraemer.com)
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (Latest LTS version recommended)
+- pnpm (Package manager)
+
+### Installation
+
+Clone the repository
 
 ```bash
-$ npm install # or pnpm install or yarn install
+git clone https://github.com/krake747/do-we-deploy.git
+cd do-we-deploy
 ```
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+Install dependencies
+
+```bash
+pnpm install
+```
+
+Start the development server
+
+```bash
+pnpm dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser
 
 ## Available Scripts
 
-In the project directory, you can run:
+- `pnpm dev` - Start development server
+- `pnpm build` - Build for production
+- `pnpm serve` - Preview production build
+- `pnpm format` - Format code with Prettier
 
-### `npm run dev` or `npm start`
+## Tech Stack
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [SolidJS](https://www.solidjs.com/)
+- [Vite](https://vitejs.dev/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
 
-The page will reload if you make edits.<br>
+## License
 
-### `npm run build`
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
+## Contributing
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+Feel free to open issues and pull requests to contribute to this project. Any contributions you make are greatly appreciated!
 
-## Deployment
+## Acknowledgments
 
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
-
-## This project was created with the [Solid CLI](https://github.com/solidjs-community/solid-cli)
+Made with ❤️ for devs who are scared to deploy 🚀
