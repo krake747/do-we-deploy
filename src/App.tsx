@@ -109,7 +109,15 @@ const App: Component = () => {
             </div>
 
             <div class="self-center p-4 text-center text-sm text-lime-700 md:p-6 md:text-base">
-                Made with <Heart /> for devs who are scared to deploy <Rocket />
+                Made with <Heart /> for devs who are scared to deploy <Rocket />{" "}
+                <a
+                    href="https://github.com/krake747/do-we-deploy"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="underline underline-offset-4 hover:text-lime-800"
+                >
+                    GitHub
+                </a>
             </div>
         </div>
     )
