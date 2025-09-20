@@ -43,10 +43,6 @@
             "editor.defaultFormatter": "esbenp.prettier-vscode",
             "editor.tabSize": 4
         },
-        "[scss]": {
-            "editor.defaultFormatter": "esbenp.prettier-vscode",
-            "editor.tabSize": 4
-        },
         "[javascript]": {
             "editor.defaultFormatter": "esbenp.prettier-vscode",
             "editor.tabSize": 4
@@ -82,12 +78,8 @@
             "typescriptreact": "javascriptreact"
         },
         "prettier.requireConfig": true,
-        "oxc.enable": true,
-        "oxc.requireConfig": true,
-        "oxc.lint.run": "onSave",
-        "vim.hlsearch": true,
         "yaml.schemas": {
-            "https://www.schemastore.org/dependabot-2.0.json": "file:///home/krake/raijin-react/.github/dependabot.yml"
+            "https://www.schemastore.org/dependabot-2.0.json": "file:///home/krake/do-we-deploy/.github/dependabot.yml"
         }
     },
     "extensions": {
