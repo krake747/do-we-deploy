@@ -22,4 +22,3 @@ updates:
     labels:
       - "ci"
       - "auto-bump"
-

@@ -1,4 +1,4 @@
-import { createSignal, onCleanup, onMount, type Component } from "solid-js"
+import { type Component, createSignal, onCleanup, onMount } from "solid-js"
 
 const date = new Date()
 
@@ -139,6 +139,7 @@ function Heart() {
             stroke-linejoin="round"
             class="inline fill-red-500/50 text-red-700"
         >
+            <title>Heart Icon</title>
             <path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5" />
         </svg>
     )
@@ -158,6 +159,7 @@ function Rocket() {
             stroke-linejoin="round"
             class="inline fill-red-500/50 text-red-700"
         >
+            <title>Rocket Icon</title>
             <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z" />
             <path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z" />
             <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0" />
