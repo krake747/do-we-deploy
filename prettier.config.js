@@ -16,12 +16,6 @@ const config = {
     plugins: ["prettier-plugin-tailwindcss"],
     overrides: [
         {
-            files: "*.astro",
-            options: {
-                parser: "astro"
-            }
-        },
-        {
             files: ["*.yml", "*.yaml"],
             options: {
                 tabWidth: 2

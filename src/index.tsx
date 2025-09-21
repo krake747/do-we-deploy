@@ -13,4 +13,5 @@ if (import.meta.env.DEV && !(root instanceof HTMLElement)) {
     )
 }
 
+// biome-ignore lint/style/noNonNullAssertion: Non-null assertion is fine here
 render(() => <App />, root!)

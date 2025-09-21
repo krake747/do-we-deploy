@@ -33,5 +33,12 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
+      - name: Setup Biome
+        uses: biomejs/setup-biome@v2
+        with:
+          version: latest
+      - name: Run Biome
+        run: pnpm lint:ci
+
       - name: Run Build the app
         run: pnpm build
